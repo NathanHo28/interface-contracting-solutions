@@ -1,11 +1,18 @@
 html, button, input, select, textarea {
 	color: #222;
 }
-body,
-html, {
+body {
 	font-size: 1em;
 	line-height: 1.4;
-	width: 100vw;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.navbar {
+	width: 100%;
 }
 
 /*
@@ -309,9 +316,9 @@ a:before, a:after {
 	background-color: #447CFD;
 }
 
-.testimony {
+/*.testimony {
 	width: 500px;
-}
+}*/
 
 #testimonials {
 	background: #fff;
